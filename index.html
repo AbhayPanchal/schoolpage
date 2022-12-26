@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Ontario High School</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo" >Ontario Private <br> School Online</h1>
+        <ul class="nav-links">
+            <li class="active"><a class="a" href="#">Home</a></li>
+            <li><a class="a" href="#">Admissions</a></li>
+            <li><a class="a" href="#">Courses</a></li>
+            <li><a class="a" href="#">Student Support</a></li>
+            <li class="ctn"><a href="#">Sign Up</a></li>
+        </ul>
+        <img src="./img/menu.jpg" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>New Generation Schooling</h2>
+            <div class="line"></div>
+            <h1>
+                New Generation Schooling
+            </h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Welcome to Online Schooling</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/pic3.jpg" alt="dd">
+                <h4>
+                    Access to Tutor Support
+                </h4>
+                <p>It brings you online learning at home.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/pic4.jpg" alt="dd">
+                <h4>
+                    Various Online Courses
+                </h4>
+                <p>It brings you online learning at home.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/pic4.jpg" alt="dd">
+                <h4>
+                    International Student
+                </h4>
+                <p>It brings you online learning at home.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- <section class="explore">
+        <div class="explore-content">
+            <h1>Explore the world</h1>
+            <div class="line"></div>
+            <p>
+                It brings you online learning at home.
+            </p>
+            <a class="ctn">Learn More</a>
+        </div>
+        
+    </section> -->
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>
+                    Courses
+                </h1>
+                <div class="line"></div>
+                <p>
+                    It brings you online learning at home.
+                </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col img-col">
+                <div class="image-gallery">
+                    <img src="./img/bio.png" alt="" >
+                    <img src="./img/bio.png" alt="">
+                    <img src="./img/bio.png" alt="">
+                    <img src="./img/bio.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>28 Mohawk Rd South | Hamilton | Ontario</p>
+        <p>Copyright @ 2022 Abhay Panchal</p>
+    </section>
+
+    <script>
+        const menBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+
+        menBtn.addEventListener('click', function(){
+            navlinks.classList.toggle('mobile-menu');
+        } )
+    </script>
+    
+</body>
+</html>
